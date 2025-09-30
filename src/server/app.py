@@ -14,7 +14,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-# chat destination
+# get data from js
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.get_json()
