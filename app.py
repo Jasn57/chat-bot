@@ -1,5 +1,5 @@
 # create app
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 # run server
 if __name__ == "__main__":
